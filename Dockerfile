@@ -11,7 +11,7 @@ COPY myproject /app
 # running all these commands
 RUN apt-get update && \
     apt-get install -y python3 python3-pip && \
-    pip3 install -r requirements.txt --break-sytem-packages && \
+    pip3 install -r requirements.txt --break-system-packages && \
     cd myproject
     
 
