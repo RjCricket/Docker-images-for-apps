@@ -16,7 +16,7 @@ RUN apt-get update && \
     
 
 # Default entry point executable
-ENTRYPOINT["python3"]
+ENTRYPOINT ["python3"]
 
 # executing the starting command
 CMD [ "manage.py","runserver","0.0.0.0:5000" ]
